@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'make -C main'
+                sh 'makes -C main'
             }
         }
         stage('Test') {
